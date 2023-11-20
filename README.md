@@ -4,6 +4,7 @@ Instructions for create_tpu_v3:
 1. `pip install fire`
 1. install gcloud via https://cloud.google.com/sdk/docs/install
 3. run `gcloud init` with zone `europe-west4-a`
+```
 
 Flops:
 ```
