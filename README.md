@@ -8,3 +8,6 @@ Flops:
 5x v3-8 ~ 2460 teraflops
 8x A100 ~ 2496 teraflops
 ```
+
+## Useful links:
+- https://github.com/huggingface/transformers/tree/main/examples/flax/language-modeling
