@@ -6,7 +6,7 @@ Instructions for create_tpu_v3:
 3. run `gcloud init` with zone `europe-west4-a`
 ```
 
-Flops:
+## Flops:
 ```
 1x v3-8 ~ 492 teraflops
 1x V100 ~ 130 teraflops
