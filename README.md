@@ -19,8 +19,8 @@ Instructions for create_tpu_v3:
 ## Useful links:
 - https://github.com/huggingface/transformers/tree/main/examples/flax/language-modeling
 
-
-
+## installing python
+run this
 ```
 sudo apt-get install -y -qq software-properties-common
 sudo add-apt-repository -y ppa:deadsnakes/ppa
@@ -33,4 +33,15 @@ python3.11 -m venv ~/venv
 pip install -U pip
 pip install -U wheel
 pip install -U "jax[tpu]" -f https://storage.googleapis.com/jax-releases/libtpu_releases.html
+```
+
+
+add this to your ~/.bashrc
+```
+. ~/venv/bin/activate
+```
+
+or, if you what you are doing, run this:
+```
+printf ". ~/venv/bin/activate" >> ~/.bashrc
 ```
