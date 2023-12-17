@@ -19,14 +19,13 @@ def parse_tpu_info():
 def call(cmd: str) -> str:
     return subprocess.check_output(cmd.split()).rstrip().decode()
 
-def create_tpus(project_name:str)
+def create_tpus(project_name:str):
     for idx in range(5):
         node_idx = idx + 1
         name = f"v3-8-node-{node_idx}"
         while name not in parse_tpu_info():
             os.system(cmd.format(node_name=name,project_name=project_name))
             time.sleep(10)
-            
-
+#usage: python create_v3_tpu.py yejins-project
 if __name__=="__main__":
     fire.Fire(create_tpus)
