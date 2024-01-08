@@ -8,7 +8,7 @@ Instructions for create_tpu_v3:
 
 ## Flops:
 ```
-1x v3-8 ~ 492 teraflops
+1x v3-8 node (4 chips x 123 teraflops) ~ 492 teraflops
 1x V100 ~ 130 teraflops
 1x A100 ~ 312 teraflops
 8x V100 ~ 1040 teraflops
