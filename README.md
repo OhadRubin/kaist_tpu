@@ -14,6 +14,7 @@ Instructions for create_tpu_v3:
 8x V100 ~ 1040 teraflops
 5x v3-8 ~ 2460 teraflops
 8x A100 ~ 2496 teraflops
+1x v4-8 node ~ (4 chips x 275 teraflops) ~ 1100 teraflops
 ```
 
 ## Useful links:
